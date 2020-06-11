@@ -1,13 +1,16 @@
 <?php
 
 require_once('TheTrait.php');
-require_once('B.php');
 
 class A {
 	use TheTrait;
 
 	public function ey() {
-		return (new B())->bee();
+		$x = new B();
+		$x->bee();
 		return "a";
 	}
 }
+
+require_once('B.php');
+
