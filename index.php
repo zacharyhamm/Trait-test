@@ -4,4 +4,4 @@ require_once('A.php');
 require_once('B.php');
 
 $x = new B();
-echo $x->traitMethod()."\n";
+echo $x->bee()."\n";

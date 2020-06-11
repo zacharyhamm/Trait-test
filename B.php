@@ -3,7 +3,7 @@
 require_once('A.php');
 
 class B extends A {
-	public function b() {
+	public function bee() {
 		return "b";
 	}
 }
